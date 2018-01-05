@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.nas.rms.ControlFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Lamp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="AtoN"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="AtoN Source"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="AtoN Control"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ambient LDR"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Racon"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
